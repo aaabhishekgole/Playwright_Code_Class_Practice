@@ -46,3 +46,29 @@ This repo does not include a license file. Add a license if you want to make thi
 ---
 
 *Generated and added by GitHub Copilot*
+
+## Testing 🧪
+
+- Install dependencies:
+
+```bash
+npm install
+```
+
+- Install Playwright browsers (required for running tests):
+
+```bash
+npx playwright install
+```
+
+- Run tests:
+
+```bash
+npm test
+```
+
+- To see an HTML report after tests run:
+
+```bash
+npm run test:report
+```
